@@ -52,7 +52,7 @@ void unsorted() {
 void display() {					// prosedur untuk menampilkan hasil 
 	cout << endl;					// output baris kosong 
 	cout << "================================" << endl;	// output ke layar
-	cout << "elemen Array yang belum tersusun" << endl;	// output ke layar
+	cout << "elemen Array yang tersusun" << endl;	// output ke layar
 	cout << "================================" << endl; // output ke layar
 	for (int j = 0; j < n; j++) {						// looping dengan j dimulai dari 0 hingga n-1 
 		cout << a[j] << endl;							// output ke layar 
