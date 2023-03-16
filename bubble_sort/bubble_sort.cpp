@@ -59,3 +59,12 @@ void display() {					// prosedur untuk menampilkan hasil
 	}
 	cout << endl;				// output baris kosong 
 }
+
+int main() {
+	input();				//memanggil prosedur read()
+	unsorted();				// memanggil prosedur unsorted()
+	BubbleSortArray();		// memanggil prosedur bubblesortarray()
+	display();				// memanggil prosedur display()
+
+	return 0;
+}
